@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats | Food Delivery and Takeout </title>
+    <link rel="icon" href="uberLogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans&family=Playfair+Display:ital@1&family=Poppins:wght@300&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans&family=Playfair+Display:ital@1&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <div class="main-image">
+        <div class="navbar">
+            <div class="left">
+                <div class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </div>
+                <div class="offcanvas offcanvas-start text" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="slide-content">
+                        <div class="slide-signup">
+                            <p>Sign up</p>
+                        </div>
+                        <div class="slide-login">
+                            <p>Log in</p>
+                        </div>
+                        <div class="slide-para">
+                            <p>Create a business account</p>
+                            <p>Add your restaurant</p>
+                            <p>Sign up to deliver</p>
+                        </div>
+                        <div class="uber">
+                            <div class="uber-img"></div>
+                            <div class="img-info">There's more to love in<br> the app</div>
+
+                        </div>
+                        <div class="source">
+                            <div class="iphone">
+                                <div class="iphone-icon">
+                                    <i class="fa-brands fa-apple"></i>
+                                </div>
+                                <div class="iphone-info">iPhone</div>
+                            </div>
+                            <div class="android">
+                                <div class="android-icon">
+                                    <i class="fa-brands fa-android" style="color: #0f0f10;"></i>
+                                </div>
+                                <div class="android-info">Android</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name"><span>Uber</span> <b>Eats</b></div>
+            </div>
+            <div class="right">
+                <div class="login">
+                    <div class="login-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <p>Login in</p>
+                </div>
+                <div class="signup">
+                    <div class="signup-icon"></div>
+                    <p>Sign up</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="para">Order delivery near you</div>
+            <div class="search">
+                <div class="search-bar">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input placeholder="Enter delivery address" id="myinp">
+                </div>
+                <div class="diliver">
+                    <div class="del-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <p> Deliver now</p>
+                    <div class="drop-icon">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="explore">
+                    <button id="nearby">Explore nearby</button>
+                </div>
+            </div>
+            <div class="sign-acc">
+                Or <a href="/action">Sign In</a> to your account
+            </div>
+        </div>
+    </div>
+    <div class="middle-content">
+        <div class="option">
+            <div class="first">
+                <div class="first-img"></div>
+               <div class="first-info">Feed your employees</div> 
+                <a href="/action">Creat a business account</a>
+            </div>
+            <div class="second">
+                <div class="second-img"></div>
+                <div class="second-info">Your restaurant,</div>
+                <div class="second-info">delivered</div>
+                <a href="/action">Add your restaurant</a>
+            </div>
+            <div class="third">
+                <div class="third-img"></div>
+                <div class="third-info">Deliver with Uber Eats</div>
+                <a href="/action">Sign up to deliver</a>
+            </div>
+        </div>
+        <div class="map">
+            <div class="map-head">
+                <div class="first-head">Cities near me</div>
+                <div class="second-head"><a>view all 500+ cities</a></div>
+            </div>
+            <div class="map-img"></div>
+        </div>
+        <div class="footer-part">
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
